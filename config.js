@@ -7,12 +7,12 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['918101187835']
-global.OwnerNumber = ['918101187835']
-global.ownertag = ['918101187835']
-global.BotName = "Miku"
-global.packname = "Miku bot"
-global.author = "By: Fantox"
+global.Owner = ['491621612964']
+global.OwnerNumber = ['491621612964']
+global.ownertag = ['491621612964']
+global.BotName = "Zyios"
+global.packname = "Zyios bot"
+global.author = "By: Kakashi"
 global.OwnerName = "Fantox"
 global.BotSourceCode = "https://github.com/FantoX001/Miku-MD"
 global.SupportGroupLink = "https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"
@@ -58,19 +58,19 @@ global.ntilink = []
 
 
 global.mess = {
-    jobdone: 'Job done...',
-    useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
-    botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-    botowner: 'Only my *Owner* can use this command, Baka!',
-    grouponly: 'This command is only made for *Groups*, Baka!',
+    jobdone: 'erledigt~owner...',
+    useradmin: 'du bist kein Admin!',
+    botadmin: 'ohne Admin geht garnix.',
+    botowner: 'Nur mein Owner kann diesen befehl nutzen!',
+    grouponly: 'dieser Command ist nur für *Gruppen*, Baka!',
     privateonly: 'This command is only made for *Private Chat*, Baka!',
     botonly: 'Only the *Bot itself* can use this command!',
-    waiting: 'Chotto Matte...',
+    waiting: 'bitte warten...',
     nolink: 'Please provide me *link*, Baka!',
     error: 'An error occurd!',
-    banned: 'You are *Banned* fron using commands!',
-    bangc: 'This Group is *Banned* from using Commands!',
-    nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
+    banned: 'du wurdest *GEBANNT*!',
+    bangc: 'die Gruppe wurde *GEBANNT*!',
+    nonsfw: 'NSFW ist deaktiviert du schwanz!'
     
 }
 
