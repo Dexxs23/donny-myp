@@ -4343,7 +4343,7 @@ if(users == "none"){
 
 } else {
 const rcpp =`@${users.split("@"[0])}`
- musers= `@${m.sender.split("@")[0]} hugged @${users.split("@")[0]} `
+ musers= `@${m.sender.split("@")[0]} umarmt @${users.split("@")[0]} `
 
 console.log(musers)
 }
@@ -4810,90 +4810,141 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `Konichiwa *${pushname}* Senpai,
+ const helpmenu = `Selam *${pushname}* Senpai,
 
-I am *Miku Nakano*, a bot developed by *Fantox*.
+Ich bin *Kxzurix Kakashi*, ein bot developed by *Kakashi*.
 
-🔰 My prefix is:  ${prefix}
+🌀 Mein prefix is:  ${prefix}
 
-Here's the list of my Commands.
+Hier sind meine ganzen Befehle.
 
 
  
- *━━━〈  🎆 Core 🎆  〉━━━*
+ *━━━〈  🌀 Core 🌀  〉━━━*
 
-speak, miku, stalk, profile, help, delete, deleteall, listgc, listpc, welcome, support, repo, script 
+help,
+stalk,
+Profile
  
- *━━━〈  🎀 Owner 🎀  〉━━━*
+ *━━━〈  🌀 Owner 🌀  〉━━━*
 
-self, public, ban, bangroup, bye, join, bye, block, unblock, broadcast 
+self,
+public,
+Tempban,
+block,
+unblock,
+broadcast,
+bcall,
+joinreq
+leavegc/bye,
 
- *━━━〈  ⭕ Group ⭕  〉━━━*
+ *━━━〈  🌀 Gruppe 🌀  〉━━━*
  
-promote, demote, revoke, add, remove, tagall, hidetag, groupsetting, grouplink, setgcpp, setname, setdesc, group, nsfw 
+promote,
+demote,
+Everyone,
+hidetag,
+setname,
+kick,
+add,
+revoke,
 
- *━━━〈  ➰ Anti Link ➰  〉━━━*
+ *━━━〈  🌀 Anti Link 🌀  〉━━━*
  
-antilinkgc, antilinktg, antilinktt, antilinkytch, antilinkytvid, antilinkig, antilinkfb, antilinktwit, antilinkall, antiwame
+antilinkgc,
+antiLinkall,
+antilinktg,
+antilinkfb,
 
- *━━━〈  🔍 Search 🔍  〉━━━*
+ *━━━〈  🌀 Search 🌀  〉━━━*
 
-play, song, yts, lyrics, google, gimage, pinterest, image, movie, wallpaper, searchgc, happymod, wikimedia, ringtone, anime, animestory, manga, ringtone  
+play,
+song,
+yts,
+lyrice,
+anime,
+google,
 
- *━━━〈  🔰 Convert 🔰  〉━━━*
+ *━━━〈  🌀 Convert 🌀  〉━━━*
 
-sticker, toimg, tovideo, togif , steal, stickermeme, emojimix, tourl, tomp3, toaudio
+sticker,
+toimg,
+toaudio,
+togif,
+stickermeme,
 
- *━━━〈  🔉 Audio 🔉  〉━━━*
+ *━━━〈  🌀 Audio 🌀  〉━━━*
 
-bass, tempo, blown, deep, earrape, fast, fat, nightcore, reverse, robot, slow, squirrel
+bass,
+tempo,
+blown,
+nightcore,
 
- *━━━〈  📍 Reactions 📍  〉━━━*
+ *━━━〈  🌀 Fun Reactions 🌀  〉━━━*
 
-bonk, cry, bully, cuddle, hug, kiss, lick, pat, smug, yeet, blush, smile, wave, highfive, handhold, nom, glomp, bite, slap, kill, happy, wink, poke, dance, cringe
+bonk,
+hug,
+cuddle,
+kiss,
+slap,
+pat,
+kill,
+kick,
+smug,
 
- *━━━〈  🌌 Downloader 🌌  〉━━━*
+ *━━━〈  🌀 Downloader 🌀  〉━━━*
 
-play, ytmp3, ytmp4, ytvideo, mediafire, instagram, igtv, facebook, fbmp3, twitter, twittermp3, tiktok, tiktokaudio, tiktoknowm, mediafire  
+*DERZEIT DEAKTIVIERT*  
 
- *━━━〈  🈴 Weeb 🈴  〉━━━*
+ *━━━〈  🌀 Weeb 🌀  〉━━━*
 
-crosplay, waifu, loli, neko, ppcouple, feed, foxgirl, feed, meow, tickle, wallpaper, coffee, animenom, waifu3, neko2, feed, meow, tickle, migumin, awoo, animewallpaper2, anime, manga
+*DEAKTIVIERT*
 
- *━━━〈  ♨️ Informative ♨️  〉━━━*
+ *━━━〈  🌀 Informative 🌀  〉━━━*
 
-animequote, quote, covid, earthquake, wiki
+animequote,
+quote,
+stickermeme,
 
- *━━━〈  🎗 Others 🎗  〉━━━*
+ *━━━〈  🌀 Others 🌀  〉━━━*
 
-stickermeme, quotes, darkjoke 
+stickermeme,
+Darkjoke,
+quotes,
 
- *━━━〈  🎐 Fun 🎐  〉━━━*
+ *━━━〈  🌀 Fun 2🌀  〉━━━*
 
-reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
+reaction,
+truth,
+couple,
+cutecheck,
+lesbiancheck,
+greatcheck,
+charactercheck,
 
- *━━━〈  🪁 Essentials 🪁  〉━━━*
+ *━━━〈  🌀 Essentials 🌀  〉━━━*
 
-qr, say, translate, fliptext, toletter
+say,
+toletter,
 
- *━━━〈  💥 NSFW 💥  〉━━━*
+ *━━━〈  🌀 NSFW 🌀  〉━━━*
 
-🍁 Type " *${prefix}nsfw* " then enable NSFW (Admin only!) 
+🍁 Benutze " *${prefix}nsfw* " zum Aktivieren (Admin only!) 
 
-🍁 Then type " *${prefix}nsfwmenu* " to get full list of NSFW commands.
+🍁 Benutze " *${prefix}nsfwmenu* " um all meine nsfw befehle zu sehen.
 
 
 
 
  『  *${global.BotName}*  』
- Powered by: *Fantox*
+ Powered by: *Kakashi*
 
- 🔰 To use any of these commands type 
+ 🌀 benutze / um befehle zu geben 
  " *${prefix}<Command name>* ".
  
- 🔰 To get Support Group link type " *${prefix}support* ".
+ 🌀 hier meine Support Gruppe " *${prefix}support* ".
 
- 🔰 Type " *${prefix}help* " to get full command list.`
+ 🌀 Benutze " *${prefix}help* " um meine Ganzen befehle zu sehen.`
     
 
  let buttonshelpm = [
